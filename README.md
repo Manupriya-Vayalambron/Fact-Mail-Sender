@@ -1,3 +1,6 @@
 # Fact-Mail-Sender
 An automatic timed email sender (on a daily basis, at a particular time) which sends random fun facts to a particular mail id. The project is created using Python. This project is inspired by two YouTube videos, https://youtu.be/ex_quMIFd4w?si=PQgjcSl5Z7PzgjdW and https://youtu.be/CYTuHBgBr60?si=TBVQxYJRDp2depiT
 The code is created by combining the individual codes from both the videos and importing only the necessary features.
+On running the funfact file, if you accidently save an incorrect password, you can run the delete_saved_password file to delete you password and retype the new one during next execution.
+The PASSWORD can be obtained from APP PASSWORDS in the Security section of your Google account.
+Make sure to turn on 2 step verification.
