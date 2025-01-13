@@ -6,8 +6,8 @@ from datetime import datetime as dt
 import requests
 import json
 
-sender = 'jameelasaeendran@gmail.com'
-receiver = 'jameelasaeendran@gmail.com'
+sender = 'sender_mail@gmail.com'
+receiver = 'receiver_mail@gmail.com'
 
 while True:
   now = dt.now()
@@ -30,7 +30,7 @@ while True:
     Good morning.
     DID YOU KNOW?\n
     """,useless_fact
-    yag = yagmail.SMTP(user=sender, password=os.getenv('glkr dalm paqy gtlk'))
+    yag = yagmail.SMTP(user=sender, password=os.getenv('PASSWORD'))
     yag.send(to=receiver, subject=subject, contents=contents)
     print("Email Sent!")
     time.sleep(60)
